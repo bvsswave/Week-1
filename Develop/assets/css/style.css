@@ -12,6 +12,8 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
+    flex: wrap;
+    display: inline-block;
     color: #ffffff;
 }
 
@@ -40,6 +42,7 @@ body {
     display: inline-block;
     margin-left: 25px;
     text-align: center;
+    display: inline-block;
 }
 
 a {
