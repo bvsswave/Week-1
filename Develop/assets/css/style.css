@@ -12,9 +12,10 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    flex: wrap;
-    display: inline-block;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header h1 {
@@ -29,9 +30,10 @@ body {
 .header div {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    background-color: #2a607c;
+    height: auto;
 }
 
 .header div ul {
